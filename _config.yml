@@ -1,0 +1,8 @@
+# Site's Information
+author: Steven To
+description: Nodeum
+
+# Site's Settings
+exclude: ['node_modules', 'README.md']
+highlighter: rouge
+permalink: none

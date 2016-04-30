@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<header class="post-head">
+  <div class="content">
+    <a href="{{site.baseurl}}/" class="logo">
+      <img src="{{site.baseurl}}/assets/img/nodeum-logo-contrast.svg" alt="logo">
+    </a>
+    <div class="post-heading">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+    </div>
+    <hr>
+  </div>
+</header>
+<main class="post-body">
+  <div class="content">
+    {{ content }}
+    <section class="questions">
+      <hr>
+      <p>
+        Have a question about this post?<br>
+        Feel free to ask me on <a href="https://twitter.com/nodeum">Twitter</a> or <a href="https://github.com/nodeum">GitHub</a>.
+      </p>
+    </section>
+  </div>
+</main>
+{% include foot.html %}

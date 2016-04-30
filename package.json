@@ -1,0 +1,26 @@
+{
+  "name": "nodeum.github.io",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeum/nodeum.github.io.git"
+  },
+  "author": "Steven To",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeum/nodeum.github.io/issues"
+  },
+  "homepage": "https://github.com/nodeum/nodeum.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.0",
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}

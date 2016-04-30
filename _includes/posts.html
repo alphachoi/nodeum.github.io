@@ -1,0 +1,11 @@
+<main class="posts">
+  <div class="content">
+    {% for post in site.posts %}
+    <article class="archive">
+      <span class="archive-date">{{post.date | date: "%B %d, %Y"}}</span>
+      <a href="{{post.url}}" class="archive-title">{{post.title}}</a>
+      <div class="clearfix"></div>
+    </article>
+    {% endfor %}
+  </div>
+</main>
