@@ -1,7 +1,7 @@
 {
   "name": "nodeum.github.io",
   "version": "1.0.0",
-  "description": "blog",
+  "description": "Steven's little journal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
